@@ -1,0 +1,786 @@
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    box-sizing: border-box; 
+
+} 
+
+ 
+
+@font-face { 
+
+    font-family: "gloomie"; 
+
+    src: url(../FONTE/gloomie_saturday/Gloomie\ Saturday.otf); 
+
+} 
+
+ 
+
+
+
+
+@media (min-width:1400px){ 
+
+ 
+
+    body{ 
+
+       background-color: #461D1F; 
+
+    } 
+
+ 
+
+    #caixa1, #caixa2, #caixa3, #caixa4, #caixa5{ 
+
+        height:785px ; 
+
+     
+
+ 
+
+    ul{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        width: 1300px; 
+
+        margin-left: 150px; 
+
+    } 
+
+    
+
+    li{ 
+
+    font-family: "corpo"; 
+
+    display: inline-block; 
+
+    text-align: center; 
+
+    margin-left: 90px; 
+
+    margin-top: 50px; 
+
+    color: wheat; 
+
+    font-size: 30px; 
+
+    } 
+
+ 
+
+    #minilogo{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 1350px; 
+
+        margin-top: 20px; 
+
+    } 
+
+ 
+
+    #icon{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 70px; 
+
+        margin-top: 57px; 
+
+    } 
+
+    } 
+
+     
+
+ 
+
+    #capaImg{ 
+
+        width:2000px; 
+        height: 800px;
+
+        background-repeat: no-repeat; 
+
+        position: absolute; 
+
+        z-index: 0; 
+
+    } 
+
+     
+
+    h2{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        font-family: "gloomie"; 
+
+        font-size: 90px; 
+
+       color: wheat; 
+
+        margin-left:80px; 
+
+        margin-top: 115px; 
+
+    } 
+
+    
+
+    h4{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+
+        font-size: 30px; 
+
+        color: wheat; 
+
+        margin-left:80px; 
+
+        margin-top: 350px; 
+
+    } 
+
+ 
+
+    h6{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        font-size: 25px; 
+
+        color: wheat; 
+
+        margin-left:970px; 
+
+        margin-top: 700px; 
+
+    } 
+
+ 
+
+    #logofundo{ 
+
+        size: 100%; 
+
+        opacity: 30%; 
+
+        display: flex; 
+
+        margin-top: 60px; 
+
+        margin-left: 250px ; 
+
+        position: absolute; 
+
+        z-index: 0; 
+
+    } 
+
+ 
+
+    #hist{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        background-color:  #2f1315; 
+
+        height: 60px; 
+
+        width: 300px; 
+
+        margin-top: 150px; 
+
+        margin-left: 110px; 
+
+        font-size: 35px; 
+
+       color: wheat; 
+    } 
+
+ 
+
+    #hist1{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        background-color:  #2f1315; 
+
+        margin-top: 230px; 
+
+        margin-left: 210px; 
+
+        font-size: 21px; 
+
+       color: wheat; 
+
+        text-align: center; 
+
+        padding: 25px 25px 25px 25px; 
+
+    } 
+
+ 
+
+    #lorenzo{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-top: 450px; 
+
+        margin-left: 110px; 
+
+    } 
+
+ 
+
+    #fund{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        background-color:  #2f1315; 
+
+        height: 60px; 
+
+        width: 300px; 
+
+        margin-top: 450px; 
+
+        margin-left: 990px; 
+
+        font-size: 35px; 
+
+       color: wheat; 
+
+    } 
+
+ 
+
+     #fund2{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        background-color:  #2f1315; 
+
+        margin-top: 550px; 
+
+        margin-left: 590px; 
+
+        font-size: 21px; 
+
+       color: wheat; 
+
+        text-align: center; 
+
+        padding: 25px 25px 25px 25px; 
+
+    } 
+
+ 
+
+    #desc{ 
+
+        position: absolute; 
+
+        z-index: 1;
+
+        font-size: 40px; 
+
+        color: wheat; 
+
+        margin-top: 150px; 
+
+        margin-left: 380px; 
+
+    } 
+
+ 
+
+    #car{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-top: 230px; 
+
+        margin-left: 560px; 
+
+    } 
+
+ 
+
+    #design{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        font-size: 30px; 
+
+        color: wheat; 
+
+        margin-top: 590px; 
+
+        margin-left: 645px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+    #saiba{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        font-size: 28px; 
+
+        color: wheat; 
+
+        margin-top: 690px; 
+
+        margin-left: 650px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+    #prod{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        font-size: 55px; 
+
+       color: wheat; 
+
+        margin-top: 130px; 
+
+        margin-left: 600px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+   .geral{ 
+
+        display: flex; 
+
+   } 
+
+ 
+
+    .leg{ 
+
+        display: flex; 
+
+        flex-direction: column; 
+
+    } 
+
+ 
+
+    p{ 
+
+
+        font-size: 20px; 
+
+     color: wheat; 
+
+    } 
+
+ 
+
+    #img1{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-top: 230px; 
+
+        margin-left: 250px; 
+
+    } 
+
+ 
+
+    #img2{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 650px; 
+
+        margin-top: 230px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+    #img3{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 1050px; 
+
+        margin-top: 230px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+    #img4{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 250px; 
+
+        margin-top: 530px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+     #img5{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 650px; 
+
+        margin-top: 530px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+     #img6{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        margin-left: 1050px; 
+
+        margin-top: 530px; 
+
+        text-align: center; 
+
+    } 
+
+ 
+
+    #reg{ 
+
+        position: absolute; 
+ 
+
+        font-size: 40px; 
+
+       color: wheat; 
+
+        margin-top: 140px; 
+
+        margin-left: 100px; 
+
+    } 
+
+ 
+
+    #br{ 
+
+        position: absolute; 
+
+        font-size: 30px; 
+
+       color: wheat; 
+
+        margin-top: 200px; 
+
+        margin-left: 100px; 
+
+        display: flex; 
+
+        flex-direction: row; 
+
+    } 
+
+ 
+
+    #unid{ 
+
+        position: absolute; 
+
+        font-size: 40px; 
+
+       color: wheat; 
+
+        margin-top: 290px; 
+
+        margin-left: 100px; 
+
+    } 
+
+ 
+
+    #vc{ 
+
+        position: absolute; 
+
+        font-size: 28px; 
+
+       color: wheat; 
+        margin-top: 350px; 
+
+        margin-left: 100px; 
+
+    } 
+
+ 
+
+    #quad{ 
+
+        position: absolute; 
+
+        z-index: 1; 
+
+        background-color:  #2f1315; 
+
+        margin-top: 450px; 
+
+        margin-left: 110px; 
+
+        font-size: 30px; 
+
+        color: wheat; 
+
+        border-radius: 54px; 
+
+        width: 400px; 
+
+        height: 80px; 
+
+        text-align: center; 
+
+        padding-top: 15px; 
+
+    } 
+
+ 
+
+    #arroba{ 
+
+        position: absolute; 
+
+        font-size:  20px; 
+
+       color: wheat; 
+
+        margin-top: 530px; 
+
+        margin-left: 200px; 
+
+    } 
+
+ 
+
+    #fim{ 
+
+        position: absolute; 
+
+        font-size:  17px; 
+
+       color: wheat; 
+
+        margin-top: 690px; 
+
+        margin-left: 30px; 
+
+    } 
+
+ 
+
+    #redes{ 
+
+        position: absolute; 
+
+        font-size: 40px; 
+
+        color: wheat; 
+
+        margin-top: 290px; 
+
+        margin-left: 800px; 
+
+    } 
+
+ 
+
+    #ent{ 
+
+        position: absolute;
+
+        font-size: 26px; 
+
+       color: wheat; 
+
+        margin-top: 350px; 
+
+        margin-left: 800px; 
+
+    } 
+
+ 
+
+    #logo1{ 
+
+        position: absolute; 
+
+        display: inline-block; 
+
+        justify-content: space-between; 
+
+        margin-top: 410px; 
+
+        margin-left: 800px; 
+
+    } 
+
+ 
+
+    #logo2{ 
+
+        position: absolute; 
+
+        display: inline-block; 
+
+        justify-content: space-between; 
+
+        margin-top: 415px; 
+
+        margin-left: 850px; 
+
+    } 
+
+ 
+
+    #logo3{ 
+
+        position: absolute; 
+
+        display: inline-block; 
+
+        justify-content: space-between; 
+
+        margin-top: 408px; 
+
+        margin-left: 927px; 
+
+    } 
+
+ 
+
+    #logo4{ 
+
+        position: absolute; 
+
+        display: inline-block; 
+
+        justify-content: space-between; 
+
+        margin-top: 417px; 
+
+        margin-left: 999px; 
+
+    } 
+
+ 
+
+    #logo5{ 
+
+        position: absolute; 
+
+        display: inline-block; 
+
+        justify-content: space-between; 
+
+        margin-top: 415px; 
+
+        margin-left: 1057px; 
+
+    } 
+
+ 
+
+    #logo6{ 
+
+        position: absolute; 
+
+        display: inline-block; 
+
+        justify-content: space-between; 
+
+        margin-top: 418px; 
+
+        margin-left: 1140px; 
+
+    } 
+
+ 
+
+    } 
